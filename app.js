@@ -82,7 +82,7 @@ function memoryFlipTile(tile,val)
 						alert(`Wrong Matches: ${count} , You Lost the Game :(`);
 						memory_values = [];
 						memory_tile_ids = [];	
-						count=0;
+						count=1;
 						showDiv();
 					}	
 					setTimeout(close,500);

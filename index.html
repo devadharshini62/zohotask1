@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+        <h1>Memory Game</h1>
+        <div class="center">
+             <p class="alert">Maximum of 3 Wrong matches only  allowed</p>
+        </div>
+        <div class="center">
+        <button onclick="showDiv()" class="start">Start New Game</button>  
+        <button onclick="endGame()" class="start">End Game</button>  
+        </div>
+        <div class="center">
+            <p id="score" class="score"></p> 
+            <p id="life" class="score"></p>
+            
+        </div> 
+        <div id="memory_board" style="display:none"></div>
+</body>
+</html>
